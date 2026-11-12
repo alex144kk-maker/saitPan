@@ -1,0 +1,27 @@
+body{
+  background-color:darkgrey;
+  font-family: "Times New Roman";
+  font-size: 32px;
+}
+button{
+  background-color:darkgrey;
+  font-family: "extraBold";
+  font-size: 20px;
+}
+a {
+    color:black;
+}
+/* Оформление синего экрана (обращаемся к нему по id через решетку #) */
+#prank-screen {
+    position: fixed;       /* Фиксируем блок поверх всего окна браузера */
+    top: 0;                /* Прибиваем к самому верху */
+    left: 0;               /* Прибиваем к левому краю */
+    width: 100%;           /* Растягиваем на всю ширину */
+    height: 100%;          /* Растягиваем на всю высоту */
+    background-color: #0078d7; /* Тот самый синий цвет ошибки Windows */
+    color: white;          /* Белый шрифт */
+    text-align: center;    /* Текст ровно по центру */
+    padding-top: 40%;      /* Сдвигаем текст чуть ниже от верхнего края */
+    z-index: 9999;         /* Делаем этот слой самым верхним, чтобы он перекрыл всё */
+    font-family: monospace; /* Шрифты как в консоли или биосе */
+}
